@@ -2,6 +2,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
+
 // Create a function to set up a scene with a different camera view
 function setupScene(canvasId, cameraPosition) {
   const scrollContent = document.querySelector("section-info")
@@ -45,7 +46,6 @@ function setupScene(canvasId, cameraPosition) {
   // const cube = new THREE.Mesh(geometry, material);
   // scene.add(cube);
   
-
   // Set the camera position
   camera.position.set(...cameraPosition);
 
