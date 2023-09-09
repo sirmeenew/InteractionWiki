@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.130.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.130.0/examples/jsm/"
+      }
+    }
+  </script>
+  <title>Interaction Wikipedia</title>
+</head>
+<body>
+  <header>
+    <div id="logo-area"><a href="../index.html"><img id="logo" src="../img/Interaction Wikipedia.png" alt="interaction wikipedia"></a></div>
+    <nav class="site-nav-container">
+      <div class="site-nav"><a href="./search.html">Search</a></div>
+      <div class="site-nav">|</div>
+      <div class="site-nav-clicked"><a href="./pageIndex.html">Index</a></div>
+      <div class="site-nav">|</div>
+      <div class="site-nav"><a href="./Info.html">Info</a></div>
+      <div class="site-nav">|</div>
+      <div class="site-nav"><a href="./contact.html">Contact</a></div>
+    </nav>
+  </header>
+  <section class="site-section">
+
+    <div id="site-section1" class="site-section-container">
+      <div class="canvas-container">
+        <canvas id="three-canvas1" class="three-canvas">
+          
+        </canvas>
+      </div>
+      <div class="article-container">
+        <h1>Macro<br>Interaction</h1>
+        <p>Social / Interpersonal / System</p>
+        <article>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium ducimus perferendis magni corrupti dolor exercitationem quisquam dolore, commodi voluptatem vero saepe sequi mollitia rem magnam fugiat nam, tenetur ipsam!
+        </article>
+        <ul class="chips">
+          <li>Brand</li>
+          <li>Society</li>
+          <li>Culture</li>
+          <li>System</li>
+        </ul>
+      </div>
+      <div class="site-section-overlay">
+      </div>
+    </div>
+
+    <div id="site-section2" class="site-section-container">
+      <div class="canvas-container">
+        <canvas id="three-canvas2" class="three-canvas">
+          
+        </canvas>
+      </div>
+      <div class="article-container">
+        <h1>Meso<br>Interaction</h1>
+        <p>Social / Interpersonal / System</p>
+        <article>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium ducimus perferendis magni corrupti dolor exercitationem quisquam dolore, commodi voluptatem vero saepe sequi mollitia rem magnam fugiat nam, tenetur ipsam!
+        </article>
+        <ul class="chips">
+          <li>Brand</li>
+          <li>Society</li>
+          <li>Culture</li>
+          <li>System</li>
+        </ul>
+      </div>
+      <div class="site-section-overlay">
+      </div>
+    </div>
+
+    <a href="https://www.naver.com">
+      <div id="site-section3" class="site-section-container">
+        <div class="canvas-container">
+          <canvas id="three-canvas3" class="three-canvas">
+            
+          </canvas>
+        </div>
+        <div class="article-container">
+          <h1>Micro<br>Interaction</h1>
+          <p>Social / Interpersonal / System</p>
+          <article>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium ducimus perferendis magni corrupti dolor exercitationem quisquam dolore, commodi voluptatem vero saepe sequi mollitia rem magnam fugiat nam, tenetur ipsam!
+          </article>
+          <ul class="chips">
+            <li>Brand</li>
+            <li>Society</li>
+            <li>Culture</li>
+            <li>System</li>
+          </ul>
+        </div>
+        <div class="site-section-overlay">
+        </div>
+      </div>
+    </a>
+  </section>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

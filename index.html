@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.130.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.130.0/examples/jsm/"
+      }
+    }
+  </script>
+  <title>Interaction Wikipedia</title>
+</head>
+<body>
+  <header>
+    <div id="logo-area"><img id="logo" src="./img/Interaction Wikipedia.png" alt="interaction wikipedia"></div>
+    <nav class="site-nav-container">
+      <div class="site-nav"><a href="./page/search.html">Search</a></div>
+      <div class="site-nav">|</div>
+      <div class="site-nav"><a href="./page/pageIndex.html">Index</a></div>
+      <div class="site-nav">|</div>
+      <div class="site-nav"><a href="./page/Info.html">Info</a></div>
+      <div class="site-nav">|</div>
+      <div class="site-nav"><a href="./page/contact.html">Contact</a></div>
+    </nav>
+  </header>
+  <section class="site-section">
+    <div id="canvas-container-home">
+      <canvas id="three-canvas-home" class="three-canvas">
+        
+      </canvas>
+    </div>
+  </section>
+  <script type="module" src="./js/main-index.js"></script>
+</body>
+</html>
